@@ -67,8 +67,7 @@ htmlcov/
 .tox/
 
 # Documentation
-docs/_build/
-docs/*
+docs/
 
 # Reports
 reports/*.pdf
