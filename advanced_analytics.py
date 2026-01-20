@@ -245,7 +245,7 @@ if __name__ == "__main__":
     import glob
     
     # Load data
-    files = glob.glob('api_data_aadhar_enrolment_*.csv')
+    files = glob.glob('data/datasets/api_data_aadhar_enrolment_*.csv')
     dfs = [pd.read_csv(f) for f in files]
     df = pd.concat(dfs, ignore_index=True)
     df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')

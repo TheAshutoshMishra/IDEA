@@ -1,5 +1,5 @@
 """
-AadhaarSecure360 - Enrolment Analytics Dashboard
+IDEA - Identity Data Evaluation & Analytics - Enrolment Dashboard
 Real-time enrolment monitoring and intelligence using UIDAI dataset
 """
 
@@ -50,7 +50,7 @@ st.markdown("""
 @st.cache_data
 def load_enrolment_data():
     """Load and process Aadhaar enrolment dataset"""
-    files = glob.glob('api_data_aadhar_enrolment_*.csv')
+    files = glob.glob('data/datasets/api_data_aadhar_enrolment_*.csv')
     
     if not files:
         st.error("Dataset files not found!")

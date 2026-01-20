@@ -214,7 +214,7 @@ streamlit run dashboard/app.py
 
 ## 🎤 Pitch for Judges
 
-**"AadhaarSecure360 demonstrates real-time intelligence for Aadhaar authentication monitoring. We ingest authentication data, detect anomalies using ML, predict high-risk scenarios, and provide explainable alerts - enabling UIDAI to proactively prevent fraud and system abuse."**
+**"IDEA - Identity Data Evaluation & Analytics demonstrates real-time intelligence for Aadhaar authentication monitoring. We ingest authentication data, detect anomalies using ML, predict high-risk scenarios, and provide explainable alerts - enabling UIDAI to proactively prevent fraud and system abuse."**
 
 **Key Differentiators**:
 1. **ML + Rules**: Hybrid approach for accuracy

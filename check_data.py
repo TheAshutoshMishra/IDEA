@@ -1,7 +1,7 @@
 import pandas as pd
 import glob
 
-files = glob.glob('api_data_aadhar_enrolment_*.csv')
+files = glob.glob('data/datasets/api_data_aadhar_enrolment_*.csv')
 print(f'Total files: {len(files)}\n')
 
 total = 0

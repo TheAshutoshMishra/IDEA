@@ -98,7 +98,7 @@ def test_risk_scoring(df):
 def test_full_pipeline():
     """Test complete pipeline"""
     print("\n" + "="*60)
-    print("🚀 AadhaarSecure360 MVP - Component Testing")
+    print("🚀 IDEA - Identity Data Evaluation & Analytics - MVP Testing")
     print("="*60)
     
     try:

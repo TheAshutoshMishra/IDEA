@@ -1,5 +1,5 @@
 """
-AadhaarSecure360 - Unified Dashboard
+IDEA - Identity Data Evaluation & Analytics
 Combined Authentication Intelligence + Enrolment Analytics
 """
 
@@ -21,7 +21,7 @@ from intelligence.risk_scorer import RiskScorer
 
 # Page configuration
 st.set_page_config(
-    page_title="AadhaarSecure360 - Unified Dashboard",
+    page_title="IDEA - Identity Data Evaluation & Analytics",
     page_icon="🔒",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -80,7 +80,7 @@ def login_page():
     """Display login page"""
     st.markdown("""
         <div style='text-align: center; padding: 2rem 0;'>
-            <h1 style='color: #1f77b4;'>AadhaarSecure360</h1>
+            <h1 style='color: #1f77b4;'>IDEA - Identity Data Evaluation & Analytics</h1>
             <p style='font-size: 1.2rem; color: #666;'>Unified Intelligence Platform</p>
             <p style='color: #888;'>Authentication Intelligence + Enrolment Analytics</p>
         </div>
@@ -129,7 +129,7 @@ def load_auth_data():
 @st.cache_data
 def load_enrolment_data():
     """Load Aadhaar enrolment dataset"""
-    files = glob.glob('api_data_aadhar_enrolment_*.csv')
+    files = glob.glob('data/datasets/api_data_aadhar_enrolment_*.csv')
     
     if not files:
         return None
@@ -167,7 +167,7 @@ def main_dashboard():
     """Main unified dashboard"""
     
     # Header
-    st.markdown('<div class="main-header">AadhaarSecure360 - Unified Dashboard</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">IDEA - Identity Data Evaluation & Analytics</div>', unsafe_allow_html=True)
     
     # Sidebar - User Profile
     st.sidebar.markdown(f"""
@@ -648,7 +648,7 @@ def show_enrolment_dashboard():
     st.markdown("---")
     st.markdown("""
         <div style='text-align: center; color: #666;'>
-            <p><strong>AadhaarSecure360 Unified Dashboard</strong> | UIDAI Dataset Analysis</p>
+            <p><strong>IDEA - Identity Data Evaluation & Analytics</strong> | UIDAI Dataset Analysis</p>
             <p>Dataset: 1,006,029+ records | Coverage: 55 States/UTs | 985+ Districts</p>
         </div>
     """, unsafe_allow_html=True)

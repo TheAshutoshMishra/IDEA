@@ -106,7 +106,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                  AadhaarSecure360 MVP                   │
+│       IDEA - Identity Data Evaluation & Analytics       │
 └─────────────────────────────────────────────────────────┘
                             │
         ┌───────────────────┼────────────────────┐
@@ -226,7 +226,7 @@ uidai/
 
 ## 7️⃣ Pitch for Judges
 
-**"AadhaarSecure360 is a real-time intelligence platform that monitors Aadhaar authentication requests, detects anomalies using ML, predicts high-risk scenarios, and provides explainable alerts — enabling UIDAI to proactively prevent fraud and system abuse before they impact citizens."**
+**"IDEA - Identity Data Evaluation & Analytics is a real-time intelligence platform that monitors Aadhaar authentication requests, detects anomalies using ML, predicts high-risk scenarios, and provides explainable alerts — enabling UIDAI to proactively prevent fraud and system abuse before they impact citizens."**
 
 ---
 

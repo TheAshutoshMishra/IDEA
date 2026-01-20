@@ -47,9 +47,9 @@
 
 ### File Structure
 ```
-1. api_data_aadhar_enrolment_0_500000.csv       - 500,000 records
-2. api_data_aadhar_enrolment_500000_1000000.csv - 500,000 records
-3. api_data_aadhar_enrolment_1000000_1006029.csv - 6,029 records
+1. data/datasets/api_data_aadhar_enrolment_0_500000.csv       - 500,000 records
+2. data/datasets/api_data_aadhar_enrolment_500000_1000000.csv - 500,000 records
+3. data/datasets/api_data_aadhar_enrolment_1000000_1006029.csv - 6,029 records
 ```
 
 ### Column Descriptions

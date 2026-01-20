@@ -21,9 +21,9 @@ Your Aadhaar Enrolment Analytics project is now **fully configured** and running
 **Total Records:** 1,006,029 enrolment transactions
 
 **Files:**
-- `api_data_aadhar_enrolment_0_500000.csv` (500,000 records)
-- `api_data_aadhar_enrolment_500000_1000000.csv` (500,000 records)
-- `api_data_aadhar_enrolment_1000000_1006029.csv` (6,029 records)
+- `data/datasets/api_data_aadhar_enrolment_0_500000.csv` (500,000 records)
+- `data/datasets/api_data_aadhar_enrolment_500000_1000000.csv` (500,000 records)
+- `data/datasets/api_data_aadhar_enrolment_1000000_1006029.csv` (6,029 records)
 
 ### Dataset Columns
 

@@ -1,5 +1,5 @@
 """
-AadhaarSecure360 - MVP Dashboard with Authentication
+IDEA - Identity Data Evaluation & Analytics - MVP Dashboard
 Real-time authentication monitoring and intelligence
 """
 
@@ -19,7 +19,7 @@ from intelligence.risk_scorer import RiskScorer
 
 # Page configuration
 st.set_page_config(
-    page_title="AadhaarSecure360",
+    page_title="IDEA - Identity Data Evaluation & Analytics",
     page_icon="🔒",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -52,7 +52,7 @@ def login_page():
     """Display login page"""
     st.markdown("""
         <div style='text-align: center; padding: 2rem 0;'>
-            <h1 style='color: #1f77b4;'>AadhaarSecure360</h1>
+            <h1 style='color: #1f77b4;'>IDEA - Identity Data Evaluation & Analytics</h1>
             <p style='font-size: 1.2rem; color: #666;'>Real-Time Authentication Intelligence Platform</p>
         </div>
     """, unsafe_allow_html=True)
@@ -134,7 +134,7 @@ def main_dashboard():
     """, unsafe_allow_html=True)
     
     # Title
-    st.title("AadhaarSecure360 - Executive Dashboard")
+    st.title("IDEA - Executive Dashboard")
     
     # User profile section on the right
     col1, col2, col3 = st.sidebar.columns([1, 1, 1])

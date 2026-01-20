@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 class AadhaarEnrolmentAnalyzer:
     """Analyze Aadhaar enrolment patterns from UIDAI dataset"""
     
-    def __init__(self, file_pattern='api_data_aadhar_enrolment_*.csv'):
+    def __init__(self, file_pattern='data/datasets/api_data_aadhar_enrolment_*.csv'):
         """
         Initialize analyzer with enrolment data files
         
