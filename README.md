@@ -1,4 +1,4 @@
-# AadhaarInsight360 🔍
+# IDEA - Identity Data Evaluation & Analytics
 
 ## Intelligent Analytics Platform for Aadhaar Enrollment & Updates
 
@@ -6,13 +6,13 @@
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Identify meaningful patterns, trends, anomalies, or predictive indicators in Aadhaar enrollment and updates data to translate them into clear insights and solution frameworks that support informed decision-making and system improvements.
 
-## 💡 Solution Overview
+## Solution Overview
 
-AadhaarInsight360 is a comprehensive data analytics platform that leverages advanced machine learning and statistical techniques to:
+IDEA - Identity Data Evaluation & Analytics is a comprehensive data analytics platform that leverages advanced machine learning and statistical techniques to:
 
 - **Detect Patterns**: Identify enrollment trends across demographics, geography, and time
 - **Predict Trends**: Forecast future enrollment rates and resource requirements
@@ -21,7 +21,7 @@ AadhaarInsight360 is a comprehensive data analytics platform that leverages adva
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. **Enrollment Pattern Analyzer**
 - Geographic enrollment heatmaps
@@ -61,7 +61,7 @@ AadhaarInsight360 is a comprehensive data analytics platform that leverages adva
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend**: Python 3.11+
 - **Data Processing**: Pandas, NumPy, Polars
@@ -73,11 +73,12 @@ AadhaarInsight360 is a comprehensive data analytics platform that leverages adva
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 uidai/
 ├── data/                      # Data directory (gitignored)
+│   ├── datasets/              # UIDAI enrolment datasets
 │   ├── raw/                   # Raw datasets from UIDAI
 │   ├── processed/             # Cleaned and processed data
 │   └── outputs/               # Analysis outputs
@@ -100,7 +101,7 @@ uidai/
 
 ---
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.11 or higher
@@ -138,7 +139,7 @@ uidai/
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Data Processing
 ```bash
@@ -162,7 +163,7 @@ python src/predictive_models/train_models.py
 
 ---
 
-## 📊 Key Insights & Findings
+## Key Insights & Findings
 
 ### Pattern Analysis
 - **Geographic Insights**: Identification of underserved regions
@@ -181,7 +182,7 @@ python src/predictive_models/train_models.py
 
 ---
 
-## 🎯 Business Impact
+## Business Impact
 
 1. **Improved Coverage**: Identify and target underserved populations
 2. **Resource Optimization**: Better allocation of enrollment centers
@@ -191,7 +192,7 @@ python src/predictive_models/train_models.py
 
 ---
 
-## 🏆 Innovation Highlights
+## Innovation Highlights
 
 - **Advanced ML Models**: Ensemble methods for robust predictions
 - **Real-time Processing**: Scalable architecture for large datasets
@@ -201,7 +202,7 @@ python src/predictive_models/train_models.py
 
 ---
 
-## 👥 Team
+## Team
 
 [Your Team Name]
 - Team Lead: [Name] - [Role]
@@ -212,13 +213,13 @@ python src/predictive_models/train_models.py
 
 ---
 
-## 📝 License
+## License
 
 This project is developed for UIDAI Data Hackathon 2026.
 
 ---
 
-## 📧 Contact
+## Contact
 
 For queries: [your-email@example.com]
 
