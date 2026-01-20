@@ -202,17 +202,6 @@ python src/predictive_models/train_models.py
 
 ---
 
-## Team
-
-[Your Team Name]
-- Team Lead: [Name] - [Role]
-- Member 2: [Name] - [Role]
-- Member 3: [Name] - [Role]
-- Member 4: [Name] - [Role]
-- Member 5: [Name] - [Role]
-
----
-
 ## License
 
 This project is developed for UIDAI Data Hackathon 2026.
@@ -221,7 +210,7 @@ This project is developed for UIDAI Data Hackathon 2026.
 
 ## Contact
 
-For queries: [your-email@example.com]
+For queries: [dev.ashutoshmishra@gmail.com]
 
 ---
 
