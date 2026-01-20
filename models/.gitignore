@@ -1,0 +1,7 @@
+# Keep this directory for trained models
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.json
+!.gitkeep

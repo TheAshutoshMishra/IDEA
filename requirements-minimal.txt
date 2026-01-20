@@ -1,0 +1,30 @@
+# Minimal Requirements for Dashboard Demo (Python 3.13 Compatible)
+# This is a stripped-down version for quick setup and demo
+
+# Core Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Machine Learning - Core
+scikit-learn>=1.4.0
+
+# Time Series (if Prophet fails, can skip)
+prophet>=1.1.5
+statsmodels>=0.14.1
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Dashboard - ESSENTIAL
+streamlit>=1.31.0
+
+# Utilities
+pyyaml>=6.0.1
+tqdm>=4.66.0
+joblib>=1.3.0
+scipy>=1.11.0
+
+# Reporting
+openpyxl>=3.1.0

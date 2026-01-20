@@ -1,0 +1,170 @@
+# AadhaarInsight360 Configuration File
+
+# Project Settings
+project:
+  name: "AadhaarInsight360"
+  version: "1.0.0"
+  description: "Intelligent Analytics Platform for Aadhaar Enrollment & Updates"
+
+# Data Paths
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  models: "models"
+  outputs: "data/outputs"
+  logs: "logs"
+
+# Data Processing
+data_processing:
+  chunk_size: 50000
+  missing_threshold: 0.3  # Drop columns with >30% missing values
+  outlier_method: "IQR"  # IQR, zscore, isolation_forest
+  date_format: "%Y-%m-%d"
+  encoding: "utf-8"
+
+# Feature Engineering
+features:
+  time_features: true
+  geographic_features: true
+  demographic_features: true
+  interaction_features: true
+  aggregation_windows: [7, 30, 90, 365]  # days
+
+# Pattern Analysis
+pattern_analysis:
+  clustering:
+    method: "kmeans"  # kmeans, dbscan, hierarchical
+    n_clusters: 8
+    random_state: 42
+  
+  trend_detection:
+    method: "mann_kendall"  # mann_kendall, linear_regression
+    significance_level: 0.05
+  
+  seasonality:
+    detect_seasonal: true
+    period: 365  # days
+
+# Anomaly Detection
+anomaly_detection:
+  methods:
+    - "isolation_forest"
+    - "local_outlier_factor"
+    - "one_class_svm"
+  
+  isolation_forest:
+    contamination: 0.05
+    n_estimators: 100
+    random_state: 42
+  
+  lof:
+    n_neighbors: 20
+    contamination: 0.05
+  
+  threshold_percentile: 95
+
+# Predictive Models
+predictive_models:
+  # Time Series Forecasting
+  time_series:
+    methods:
+      - "prophet"
+      - "arima"
+      - "lstm"
+    
+    prophet:
+      seasonality_mode: "multiplicative"
+      changepoint_prior_scale: 0.05
+      seasonality_prior_scale: 10.0
+    
+    arima:
+      auto: true
+      seasonal: true
+      m: 12
+    
+    lstm:
+      units: 64
+      epochs: 100
+      batch_size: 32
+      lookback: 30
+  
+  # Classification/Regression
+  ml_models:
+    - "random_forest"
+    - "xgboost"
+    - "lightgbm"
+    - "neural_network"
+  
+  hyperparameter_tuning:
+    method: "grid_search"  # grid_search, random_search, bayesian
+    cv_folds: 5
+  
+  train_test_split: 0.2
+  validation_split: 0.1
+  random_state: 42
+
+# Visualization
+visualization:
+  theme: "plotly_white"
+  color_palette: "viridis"
+  figure_size: [12, 6]
+  dpi: 300
+  interactive: true
+  
+  maps:
+    zoom_level: 4
+    center_lat: 20.5937
+    center_lon: 78.9629
+
+# Dashboard
+dashboard:
+  title: "AadhaarInsight360 Dashboard"
+  layout: "wide"
+  theme: "light"
+  port: 8501
+  cache_ttl: 3600  # seconds
+  
+  features:
+    - "overview"
+    - "enrollment_analysis"
+    - "update_analysis"
+    - "anomaly_detection"
+    - "predictions"
+    - "recommendations"
+
+# Reporting
+reporting:
+  formats: ["pdf", "html", "excel"]
+  include_visualizations: true
+  auto_generate: true
+  frequency: "daily"
+
+# Performance
+performance:
+  use_multiprocessing: true
+  n_jobs: -1  # Use all available cores
+  cache_results: true
+  optimize_memory: true
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/aadhaar_insight.log"
+  console: true
+
+# Security & Privacy
+security:
+  anonymize_data: true
+  encrypt_outputs: false
+  secure_delete: true
+  audit_trail: true
+
+# Alerts & Notifications
+alerts:
+  enabled: true
+  email_notifications: false
+  thresholds:
+    critical_anomaly: 0.95
+    high_variance: 0.8
+    low_quality: 0.5
